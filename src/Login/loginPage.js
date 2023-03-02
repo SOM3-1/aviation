@@ -40,7 +40,7 @@ export const LoginPage = () => {
       <div className={classes.App}>
         <div className={classes.header}>
             <span>
-          Aviation</span>
+          APEM</span>
           <span>
             <Link to="/">
               <Home

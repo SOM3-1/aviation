@@ -14,11 +14,11 @@ const handleLogout = () => {
     navigate('/')
     localStorage.removeItem("loginStatus");
   };
-  
+
     return (<><>
         <div className={classes.App}>
           <div className={classes.header}>
-            Aviation{" "}
+            APEM{" "}
             <span>
               {userLogin ? (
                 <>
