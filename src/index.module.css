@@ -1,0 +1,108 @@
+div {
+    font-family: system-ui;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 20px);
+    color: #000133;
+}
+
+.header,
+.footer {
+    background: #00022e;
+    height: 50px;
+    color: #fc86aa;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    width:100%;
+}
+
+.footer{
+    border-radius: 20px 50px 20px 20px;
+    -webkit-border-radius: 20px 50px 20px 20px;
+    -moz-border-radius: 20px 50px 20px 20px;
+    -ms-border-radius: 20px 50px 20px 20px;
+    -o-border-radius: 20px 50px 20px 20px;
+}
+
+.header {
+    border-radius: 20px 20px 20px 50px;
+}
+
+.buttonLogin, .account {
+    position: absolute;
+    right: 1%;
+    top:20%;
+    color: #fc86aa;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    font-weight: 500;
+    line-height: 1.75;
+    text-transform: uppercase;
+    background-color: rgba(245, 0, 87, 0.04);
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    -moz-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    -ms-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    -o-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.buttonLogin {
+    right: 1%;
+    top: 20%;
+}
+
+.account {
+    right: 6%;
+    top: 14%;
+    font-size: 2rem;;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.main {
+    flex: 1;
+    background: #f7f5f5;
+}
+
+.loginContainer {
+    width: 100%;
+    max-width: 400px;
+    /*oranyothervalueyouprefer*/margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+    border: 3px solid #fc86aa;
+    border-image: linear-gradient(to right, #d1d418, #c73810) 1;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.upperLayer {
+    width: 100%;
+    max-width: 450px;
+    /*oranyothervalueyouprefer*/margin: auto;
+    margin-top: 10%;
+    padding: 1px;
+    border-radius: 30px;
+    border: 10px solid #fc86aa;
+    border-image: linear-gradient(to left, #8886fc, #b2c8cc) 1;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+
+}
